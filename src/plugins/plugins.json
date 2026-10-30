@@ -41,7 +41,7 @@
       "repo": "oleeskild/garden-plugin-analytics",
       "installedVersion": "1.0.0",
       "installedRef": "v1.0.0",
-      "installedAt": "2026-10-30T22:11:46.076Z",
+      "installedAt": "2026-10-30T22:11:57.642Z",
       "enabled": true,
       "files": [
         "src/plugins/analytics/README.md",
