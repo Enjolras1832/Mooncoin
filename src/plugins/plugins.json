@@ -14,7 +14,7 @@
       ],
       "order": 50,
       "settings": {
-        "repo": "The public GitHub repowith Discussions enabled, as owner/name. Set it up at giscus.app.",
+        "repo": "The public GitHub repo with Discussions enabled, as owner/name. Set it up at giscus.app.",
         "repoId": "From giscus.app.",
         "category": "comments",
         "categoryId": "From giscus.app.",
