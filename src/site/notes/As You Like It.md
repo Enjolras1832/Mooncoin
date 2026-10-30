@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/as-you-like-it/","dg-note-properties":{}}
 ---
 
-**Summary: 梅卡和贝勒在二十年前坦格利安家族灭门惨案之夜失散，他们互相以为自己害死了彼此。二十年后贝勒回到伦敦，他们在阴谋之下再次相逢——两个幽灵再次相见，他们依旧相爱，这次会有一个童话故事。
+**Summary: 梅卡和贝勒在二十年前坦格利安家族灭门惨案之夜失散，他们互相以为自己害死了彼此。二十年后贝勒回到伦敦，他们在阴谋之下再次相逢——两个幽灵再次相见，他们依旧相爱，这次会有一个童话故事。**
 **
 **Maekar and Baelor were separated on the night of the Targaryen family massacre twenty years ago. Each believed that he had killed the other.**
 **Twenty years later, Baelor returns to London, and the two were reunit under the shadow of a conspiracy. Two ghosts meet again. They are still in love, and this time, there will be a fairy tale ending.**
