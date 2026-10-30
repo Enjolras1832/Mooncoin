@@ -1,27 +1,6 @@
 {
   "version": 1,
   "plugins": {
-    "giscus-comments": {
-      "repo": "oleeskild/garden-plugin-giscus-comments",
-      "installedVersion": "1.0.0",
-      "installedRef": "v1.0.0",
-      "installedAt": "2026-10-30T22:08:26.309Z",
-      "enabled": true,
-      "files": [
-        "src/plugins/giscus-comments/README.md",
-        "src/plugins/giscus-comments/garden-plugin.json",
-        "src/plugins/giscus-comments/templates/comments.njk"
-      ],
-      "order": 50,
-      "settings": {
-        "repo": "The public GitHub repo with Discussions enabled, as owner/name. Set it up at giscus.app.",
-        "repoId": "From giscus.app.",
-        "category": "comments",
-        "categoryId": "From giscus.app.",
-        "theme": "dark",
-        "showByDefault": true
-      }
-    },
     "dg-filetree": {
       "order": 10
     },
