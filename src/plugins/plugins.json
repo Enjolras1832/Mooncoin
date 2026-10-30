@@ -17,7 +17,7 @@
         "repo": "The public GitHub repowith Discussions enabled, as owner/name. Set it up at giscus.app.",
         "repoId": "From giscus.app.",
         "category": "comments",
-        "categoryId": " From giscus.app.",
+        "categoryId": "From giscus.app.",
         "theme": "dark",
         "showByDefault": true
       }
