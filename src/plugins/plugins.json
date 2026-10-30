@@ -11,7 +11,23 @@
         "src/plugins/giscus-comments/README.md",
         "src/plugins/giscus-comments/garden-plugin.json",
         "src/plugins/giscus-comments/templates/comments.njk"
-      ]
+      ],
+      "order": 50
+    },
+    "dg-filetree": {
+      "order": 10
+    },
+    "dg-link-preview": {
+      "order": 20
+    },
+    "dg-math": {
+      "order": 30
+    },
+    "dg-search": {
+      "order": 40
+    },
+    "dg-timestamps": {
+      "order": 60
     }
   }
 }
