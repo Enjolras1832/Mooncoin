@@ -40,7 +40,7 @@
         "src/plugins/giscus-comments/templates/comments.njk"
       ],
       "settings": {
-        "repo": "mooncoin",
+        "repo": "",
         "repoId": "",
         "category": "comments",
         "categoryId": "",
