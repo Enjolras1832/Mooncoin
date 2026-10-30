@@ -1,0 +1,9 @@
+{%- if pluginSettings.siteId -%}
+  {%- if pluginSettings.provider === "plausible" -%}
+<script defer data-domain="{{ pluginSettings.siteId }}" src="{{ pluginSettings.scriptUrl or "https://plausible.io/js/script.js" }}"></script>
+  {%- elif pluginSettings.provider === "umami" -%}
+<script defer src="{{ pluginSettings.scriptUrl or "https://cloud.umami.is/script.js" }}" data-website-id="{{ pluginSettings.siteId }}"></script>
+  {%- elif pluginSettings.provider === "goatcounter" -%}
+<script data-goatcounter="https://{{ pluginSettings.siteId }}.goatcounter.com/count" async src="{{ pluginSettings.scriptUrl or "https://gc.zgo.at/count.js" }}"></script>
+  {%- endif -%}
+{%- endif -%}

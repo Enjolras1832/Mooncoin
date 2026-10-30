@@ -1,0 +1,35 @@
+{
+  "id": "analytics",
+  "name": "Analytics",
+  "version": "1.0.0",
+  "description": "Privacy-friendly analytics: Plausible, Umami, or GoatCounter.",
+  "author": "Ole Eskild Steensen",
+  "slots": {
+    "common.head": "templates/snippet.njk"
+  },
+  "settings": [
+    {
+      "key": "provider",
+      "name": "Provider",
+      "description": "Which analytics service to load.",
+      "type": "select",
+      "default": "plausible",
+      "options": ["plausible", "umami", "goatcounter"]
+    },
+    {
+      "key": "siteId",
+      "name": "Site ID",
+      "description": "Plausible: your domain. Umami: the website ID. GoatCounter: your code (the part before .goatcounter.com).",
+      "type": "text",
+      "default": "",
+      "env": "ANALYTICS_SITE_ID"
+    },
+    {
+      "key": "scriptUrl",
+      "name": "Custom script URL",
+      "description": "Optional, for self-hosted instances. Leave empty for the provider's default.",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}
