@@ -4,7 +4,7 @@
 
 **Summary: 戴伦·坦格利安二世从报纸上得知了儿子们公开恋情的新闻，他告诉了妻子。而弥丽亚只能想起五年前旅行时，她为贝勒和梅卡的房间多付了一个避孕套的费用。**
 
-**Daeron II Targaryen  learned from the newspaper that his sons had gone public with their relationship. He told his wife. All Myriah could think of was how, five years ago, she had paid extra for one more condom for Baelor and Maekar's room during their travels.**
+**Daeron II Targaryen  learned from the newspaper that his sons had gone public with their relationship. He told his wife. All Myriah could think of was how, five years ago, she had paid extra for one condom for Baelor and Maekar's room during their travels.**
 
 
 梅卡最后一次和贝勒一起过万圣节是在他十五岁那年。
