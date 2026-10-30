@@ -106,6 +106,6 @@ Summary:
 
 
 
-<center><font color="#953734">This is a personal archive of fanworks, fiction, and other writings by Valeria_Z aka Mooncoin.</font></center>
-<center><font color="#953734">All original writing published here belongs to the author. Please do not repost, reproduce, or redistribute without permission.</font></center>
-<center><font color="#953734">All original characters, settings, and related intellectual properties belong to their respective copyright holders. No infringement is intended.</font></center>
+<center><font color="#fdeada">This is a personal archive of fanworks, fiction, and other writings by Valeria_Z aka Mooncoin.</font></center>
+<center><font color="#fdeada">All original writing published here belongs to the author. Please do not repost, reproduce, or redistribute without permission.</font></center>
+<center><font color="#fdeada">All original characters, settings, and related intellectual properties belong to their respective copyright holders. No infringement is intended.</font></center>
