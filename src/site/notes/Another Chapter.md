@@ -14,7 +14,7 @@
 **OR**
 **Baelor Targaryen has always dreamed of a little brother.**
 **He was born in twenty-first-century London and has two brothers in this life. He knows their names. He knows their faces.**
-**But in his dreams, there is always a third--**
+**But in his dreams, there is always a third—**
 **Maekar. A brother who never existed.**
 **Until one stormy night, Baelor finds him.**
 
