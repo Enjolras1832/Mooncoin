@@ -6,7 +6,11 @@
 **OR**
 **梅卡暗恋他的长兄，而如今显然有什么糟糕的事情发生在了贝勒身上，梅卡一定要见到他。**
 
-  
+**Prince Baelor returned to the Red Keep victorious after putting down the Greyjoy rebellion. Yet he did not attend the celebrations held in his honour. Without offering any explanation, he tore up his betrothal to Lady Dondarrion, shut himself away, and refused to see anyone—until Maekar forced his way into his chambers.**
+**OR**
+**Maekar harbours a secret love for his elder brother. And now, evidently, something terrible has happened to Baelor. Maekar is determined to see him.****
+
+
 “你们宣誓效忠的是我的父亲，”梅卡沉着脸对把守在贝勒门前的两个御林铁卫说，“难道我的哥哥已经当上国王了吗？”
 
 白袍的骑士略一低头：“殿下，这也是您父王的命令，任何人都不能面见贝勒王子。”

@@ -4,8 +4,11 @@
 
 **Summary: 停用抑制剂后，梅卡·戴恩决定遵从医嘱与一个阿尔法共同度过发情期。他在酒吧里挑中了一名穿着西装独自小酌的男性阿尔法，全然不知道他的名字是贝勒·坦格利安。**
 **OR**
-**贝勒·坦格利安在下班后偶然光临酒吧，没有预见到他的单身汉生涯就要结束了。**
+**贝勒·坦格利安在下班后偶然光临酒吧，没有预见到他的单身汉生涯就要结束了。
 
+**After going off suppressants, Maekar Dayne decided to follow his doctor's advice and spend his heat with an Alpha. At a bar, he picked out a male Alpha in a suit, drinking alone—and had absolutely no idea that his name was Baelor Targaryen.
+OR
+Baelor Targaryen stopped by a bar after work, quite by chance, never expecting to leave  his bachelorhood behind.
   
 
 ## Chapter 1

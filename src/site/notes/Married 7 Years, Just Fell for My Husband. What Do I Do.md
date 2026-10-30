@@ -2,7 +2,9 @@
 {"dg-publish":true,"permalink":"/married-7-years-just-fell-for-my-husband-what-do-i-do/","dg-note-properties":{}}
 ---
 
-**Summary: 结婚第七年，梅卡发现自己爱上了丈夫贝勒亲王，这无疑是一个大问题。**
+**Summary: 结婚第七年，梅卡发现自己爱上了丈夫贝勒亲王，这无疑是一个大问题。
+**
+In the seventh year of their marriage, Maekar discoveres that he falls in love with his husband, Prince Baelor. This is, without a doubt, a considerable problem.
 
 
 ## Chapter 1

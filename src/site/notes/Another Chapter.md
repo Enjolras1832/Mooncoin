@@ -7,6 +7,7 @@
 **OR**
 **贝勒·坦格利安出生在二十一世纪的伦敦，他有两个弟弟，但他始终梦到自己还有一个名叫梅卡的小弟，他不存在的小弟。**
 **直到他在一个暴雨夜找到了他。**
+
 **Is death really the end?**
 **Maekar I Targaryen dies beneath the walls of Starpike, in the last battle of the Peake Uprising.**
 **While when he opens his eyes, he finds himself in another world.**

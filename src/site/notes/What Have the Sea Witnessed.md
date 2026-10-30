@@ -4,6 +4,9 @@
 
 **Summary: 贝勒起初是海盗，然后变成了国王，但这对梅卡来说有什么区别？他只是一条人鱼，海洋是他的王国。陆地上的人类生活在蚌壳之中，而人鱼赤裸地拥抱着他的一切。**
 
+**Baelor was a pirate first, and a king thereafter. But what difference does it make to Maekar? He is merely a mermaid, and the ocean is his kingdom.**
+**Man on land lives enclosed within his shell, while mermaids, naked and unashamed, embrace his everything.
+
   
 ## Chapter 1
 

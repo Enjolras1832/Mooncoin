@@ -2,8 +2,9 @@
 {"dg-publish":true,"permalink":"/the-tempest/","dg-note-properties":{}}
 ---
 
-**Summary: 梅卡·坦格利安是戴伦二世国王的长子以及其即位后近10年内唯一的孩子，黑火叛乱声势浩大战火席卷半个王国，空悬储君之位显然不是明智之举。因此戴伦国王将年幼的梅卡王子册封为龙石岛亲王，然而王子在12岁那一年分化为欧米伽，而此时国王的续弦王后，来自多恩的弥丽亚公主已经诞下贝勒·坦格利安王子，另一位皇子也已然在王后腹中孕育。欧米伽怎么能继承铁王座？窃窃私语从宫廷传至全境，16岁的梅卡王子从龙石岛返回君临时本以为会面对另一场坦格利安家族之战的先声，然而他所没想到的是名叫贝勒的6岁幼弟爱他——只是也许比他原本所想象的更多。**
+**Summary: 当16岁的梅卡王子从龙石岛返回君临时本以为会面对另一场坦格利安家族之战的先声，然而他所没想到的是名叫贝勒的6岁同父异母幼弟爱他——只是也许比他原本所想象的更多。**
 
+**When sixteen-year-old Prince Maekar returns from Dragonstone to King's Landing, he expects to be confronted with the beginnings of yet another Targaryen civil war. What he doesn not expect is that his six-year-old half-brother Baelor, loves him—just perhaps a little more than he had originally imagined.**
   
 ## Chapter 1
 

@@ -4,6 +4,9 @@
 
 **Summary: 春季大瘟疫以死亡呼唤死亡正如古瓦雷利亚的毁灭，少王子诘问七神于是千面之神予他回应。瓦拉尔抛弃自己的名字姓氏和过去，但他毕竟年纪太轻，前尘往事尚未随风，他在酒馆遇到戴伦，他以为他是一个徒利——因为这张死人面皮有铁锈一样的红发和冰冷的蓝眼睛。**
 
+**The Great Spring Sickness called to death with death, much as the Doom of Old Valyria had done. The young prince questioned the Seven, and the Many-Faced God answered him.**
+**Valarr abandoned his name, his house, and his past. But he was, after all, still too young; the memories of his former life had not yet faded into the wind. In a tavern, he encountered Daeron. He took him for a Tully, for the dead man's face bore rust—red hair and cold blue eyes**
+
 
 戴伦看起来和他十九岁的时候没太大区别，只是更瘦削、更苍白、眼下的乌青更深，当他暧昧地把手臂搭上瓦拉尔后颈和腰的时候他才意识到自己竟然还没有忘记这个堂弟的样子。
 

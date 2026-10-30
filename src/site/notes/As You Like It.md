@@ -2,7 +2,10 @@
 {"dg-publish":true,"permalink":"/as-you-like-it/","dg-note-properties":{}}
 ---
 
-**Summary: 梅卡·坦格利安和贝勒·坦格利安在二十年前坦格利安家族灭门惨案之夜失散，他们互相以为自己害死了彼此——贝勒被迟来一步的纳梅洛斯·马泰尔家族收养，而在此前侥幸逃脱的梅卡则靠自己谋生，作为欧米茄的他拥有破碎的情感、四个孩子、来自第一个孩子父亲戴恩的姓氏以及一个名叫梅纳德的假名。二十年后贝勒回到伦敦，他们在阴谋之下再次相逢：掌控地下世界的黑火家族逼迫梅纳德·戴恩引诱马泰尔家族样貌不明而名声在外的“破矛者”以期杀死对方。两个幽灵再次相见，他们依旧相爱，这次会有一个童话故事。**
+**Summary: 梅卡和贝勒在二十年前坦格利安家族灭门惨案之夜失散，他们互相以为自己害死了彼此。二十年后贝勒回到伦敦，他们在阴谋之下再次相逢——两个幽灵再次相见，他们依旧相爱，这次会有一个童话故事。
+**
+**Maekar and Baelor were separated on the night of the Targaryen family massacre twenty years ago. Each believed that he had killed the other.**
+**Twenty years later, Baelor returns to London, and the two were reunit under the shadow of a conspiracy. Two ghosts meet again. They are still in love, and this time, there will be a fairy tale ending.**
 
 
 ## Chapter 1

@@ -4,6 +4,7 @@
 
 **Summary: 小人得志听起来很坏，但小狗得志是不是就可爱多了？**
 **这正是贝勒•坦格利安具有欺骗性的一点。**
+
 **A petty person finally getting their way sounds sinister, but a pretty puppy finally getting its way sounds much more angelic, doesn’t it?**
 **This is precisely what makes Baelor Targaryen so deceptive.**
 
