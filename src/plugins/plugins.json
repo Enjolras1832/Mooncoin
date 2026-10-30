@@ -40,10 +40,10 @@
         "src/plugins/giscus-comments/templates/comments.njk"
       ],
       "settings": {
-        "repo": "The public GitHub repo with Discussions enabled, as owner/name. Set it up at giscus.app.",
-        "repoId": "From giscus.app.",
-        "category": "Announcements",
-        "categoryId": "From giscus.app.",
+        "repo": "mooncoin",
+        "repoId": "",
+        "category": "comments",
+        "categoryId": "",
         "theme": "transparent_dark",
         "showByDefault": true
       }
