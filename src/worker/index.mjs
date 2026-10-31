@@ -143,7 +143,7 @@ async function getComments(url, env) {
   if (!pagePath) return error("A valid page path is required.");
   const comments = await env.DB.prepare(
     `SELECT id, page_path, nickname, body, created_at
-     FROM comments WHERE page_path = ? AND status = 'approved'
+     FROM comments WHERE page_path = ? AND status IN ('approved', 'published')
      ORDER BY created_at ASC LIMIT 200`
   ).bind(pagePath).all();
   const rows = comments.results || [];
@@ -191,7 +191,7 @@ async function adminStats(env) {
   const [comments, pending, published, rejected, kudos] = await Promise.all([
     env.DB.prepare("SELECT COUNT(*) AS n FROM comments").first(),
     env.DB.prepare("SELECT COUNT(*) AS n FROM comments WHERE status = 'pending'").first(),
-    env.DB.prepare("SELECT COUNT(*) AS n FROM comments WHERE status = 'approved'").first(),
+    env.DB.prepare("SELECT COUNT(*) AS n FROM comments WHERE status IN ('approved', 'published')").first(),
     env.DB.prepare("SELECT COUNT(*) AS n FROM comments WHERE status = 'rejected'").first(),
     env.DB.prepare("SELECT COUNT(*) AS n FROM kudos").first(),
   ]);
@@ -209,9 +209,11 @@ async function adminComments(url, env) {
   const allowed = ["pending", "approved", "rejected", "all"];
   if (!allowed.includes(status)) return error("Invalid comment status.");
   const sql = status === "all"
-    ? "SELECT id, page_path, nickname, body, status, created_at FROM comments ORDER BY created_at DESC LIMIT 500"
-    : "SELECT id, page_path, nickname, body, status, created_at FROM comments WHERE status = ? ORDER BY created_at DESC LIMIT 500";
-  const result = status === "all"
+    ? "SELECT id, page_path, nickname, body, CASE WHEN status = 'published' THEN 'approved' ELSE status END AS status, created_at FROM comments ORDER BY created_at DESC LIMIT 500"
+    : status === "approved"
+      ? "SELECT id, page_path, nickname, body, 'approved' AS status, created_at FROM comments WHERE status IN ('approved', 'published') ORDER BY created_at DESC LIMIT 500"
+      : "SELECT id, page_path, nickname, body, status, created_at FROM comments WHERE status = ? ORDER BY created_at DESC LIMIT 500";
+  const result = status === "all" || status === "approved"
     ? await env.DB.prepare(sql).all()
     : await env.DB.prepare(sql).bind(status).all();
   return json({ comments: result.results || [] });
@@ -219,7 +221,7 @@ async function adminComments(url, env) {
 
 async function adminCommentDetail(id, env) {
   const comment = await env.DB.prepare(
-    "SELECT id, page_path, nickname, body, status, created_at FROM comments WHERE id = ?"
+    "SELECT id, page_path, nickname, body, CASE WHEN status = 'published' THEN 'approved' ELSE status END AS status, created_at FROM comments WHERE id = ?"
   ).bind(id).first();
   if (!comment) return error("Comment not found.", 404);
   const replies = await env.DB.prepare(
@@ -232,9 +234,9 @@ async function adminPatchComment(id, request, env) {
   const body = await readJson(request, 12000);
   const updates = [];
   const values = [];
-  if (["pending", "approved", "rejected"].includes(body.status)) {
+  if (["pending", "approved", "published", "rejected"].includes(body.status)) {
     updates.push("status = ?");
-    values.push(body.status);
+    values.push(body.status === "published" ? "approved" : body.status);
   }
   if (typeof body.body === "string") {
     const content = cleanText(body.body, 5000);
@@ -255,7 +257,7 @@ async function adminCreateReply(id, request, env) {
   const body = await readJson(request, 8000);
   const content = cleanText(body.body, 5000);
   if (!content) return error("Reply cannot be empty.");
-  const parent = await env.DB.prepare("SELECT id FROM comments WHERE id = ? AND status = 'approved'").bind(id).first();
+  const parent = await env.DB.prepare("SELECT id FROM comments WHERE id = ? AND status IN ('approved', 'published')").bind(id).first();
   if (!parent) return error("Only published comments can receive public replies.", 409);
   const now = new Date().toISOString();
   const result = await env.DB.prepare(
