@@ -106,7 +106,7 @@ Summary:
 Status: finished
 Relationship: Daeron I Targaryen/Baelor I Targaryen 
 Summary:
-> Bring me a willow.
+> **Bring me a willow.**
 - [[Pietà\|Pietà]]
 
 
