@@ -1,0 +1,32 @@
+<section class="mc-interactions" aria-label="Reader interactions">
+  <div class="mc-kudos">
+    <button class="mc-kudos-button" type="button" data-mc-kudos aria-pressed="false">
+      <span aria-hidden="true">♡</span>
+      <span data-mc-kudos-label>Leave a kudos</span>
+    </button>
+    <span class="mc-kudos-count" data-mc-kudos-count>0 kudos</span>
+  </div>
+
+  <section class="mc-comments" aria-labelledby="mc-comments-title">
+    <h2 id="mc-comments-title">Comments</h2>
+    <div class="mc-comment-list" data-mc-comment-list>
+      <p class="mc-muted">Loading comments…</p>
+    </div>
+
+    <form class="mc-comment-form" data-mc-comment-form>
+      <h3>Leave a comment</h3>
+      <label>
+        <span>Nickname</span>
+        <input name="nickname" maxlength="40" required autocomplete="nickname" />
+      </label>
+      <label>
+        <span>Comment</span>
+        <textarea name="body" rows="5" maxlength="5000" required></textarea>
+      </label>
+      <div class="mc-turnstile" data-mc-turnstile></div>
+      <button type="submit">Submit for review</button>
+      <p class="mc-form-message" data-mc-form-message aria-live="polite"></p>
+      <p class="mc-muted mc-small">Comments are reviewed before publication. Please do not include private information.</p>
+    </form>
+  </section>
+</section>
