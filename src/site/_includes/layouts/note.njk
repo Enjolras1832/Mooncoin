@@ -66,6 +66,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% for imp in dynamics.notes.afterContent %}
         {% include imp %}
       {% endfor %}
+
+
+      {% include "components/interactions.njk" %}
     </main>
 
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true or dynamics.sidebar.top.length > 0 or dynamics.sidebar.bottom.length > 0 or plugins.slots["sidebar.top"] or plugins.slots["sidebar.bottom"] %}
@@ -88,5 +91,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
     {% include "components/basesScript.njk" %}
     {% include "components/excalidrawScript.njk" %}
+    <link rel="stylesheet" href="/styles/mooncoin-interactions.css">
+    <script defer src="/scripts/mooncoin-interactions.js"></script>
   </body>
 </html>
