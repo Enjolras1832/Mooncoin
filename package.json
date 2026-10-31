@@ -12,7 +12,8 @@
         "build:sass": "sass src/site/styles:dist/styles --style compressed",
         "get-theme": "node src/site/get-theme.js",
         "build": "npm-run-all get-theme --parallel build:*",
-        "test": "vitest run --exclude \"src/plugins/!(dg-*)/**\""
+        "test": "vitest run --exclude \"src/plugins/!(dg-*)/**\"",
+        "deploy": "wrangler deploy"
     },
     "keywords": [],
     "author": "",
@@ -27,7 +28,8 @@
         "html-minifier-terser": "^7.2.0",
         "node-html-parser": "^7.0.2",
         "sass": "^1.49.9",
-        "vitest": "^4.1.0"
+        "vitest": "^4.1.0",
+        "wrangler": "^4.45.0"
     },
     "dependencies": {
         "@11ty/eleventy-img": "^4.0.2",
@@ -39,12 +41,13 @@
         "fs-file-tree": "^1.1.1",
         "glob": "^10.2.1",
         "gray-matter": "^4.0.3",
+        "jose": "^6.2.14",
         "jsep": "^1.4.0",
         "markdown-it": "^14.1.0",
         "markdown-it-anchor": "^9.0.1",
         "markdown-it-attrs": "^4.1.6",
-        "markdown-it-footnote": "^3.0.3",
-        "markdown-it-mark": "^4.0.0",
+        "markdown-it-footnote": "^3.0.0",
+        "markdown-it-mark": "^3.0.0",
         "markdown-it-mathjax3": "^4.3.1",
         "markdown-it-plantuml": "^1.4.1",
         "markdown-it-task-checkbox": "^1.0.6",
