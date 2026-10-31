@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>The Study · Mooncoin</title>
+  <link rel="stylesheet" href="/styles/mooncoin-admin.css">
+  <script defer src="/scripts/mooncoin-admin.js"></script>
+</head>
+<body>
+  <main class="study-shell">
+    <header class="study-header">
+      <a class="study-wordmark" href="/">MOONCOIN</a>
+      <div>
+        <p class="eyebrow">PRIVATE ARCHIVE</p>
+        <h1>The Study</h1>
+        <p class="subhead">A quiet room for correspondence and reader activity.</p>
+      </div>
+      <a class="back-link" href="/">Return to the garden ↗</a>
+    </header>
+
+    <section id="study-auth" class="study-panel">
+      <p>Checking Cloudflare Access identity…</p>
+    </section>
+
+    <section id="study-app" hidden>
+      <div class="study-welcome">
+        <p class="eyebrow">OVERVIEW</p>
+        <p id="study-identity" class="identity"></p>
+      </div>
+      <div class="stat-grid" id="study-stats"></div>
+
+      <nav class="study-tabs" aria-label="The Study sections">
+        <button class="tab is-active" data-tab="comments">Correspondence</button>
+        <button class="tab" data-tab="kudos">Kudos ledger</button>
+      </nav>
+
+      <section id="study-comments" class="study-section">
+        <div class="section-heading">
+          <div><p class="eyebrow">MODERATION</p><h2>Correspondence</h2></div>
+          <div class="filter-tabs">
+            <button class="filter is-active" data-status="pending">Pending</button>
+            <button class="filter" data-status="approved">Published</button>
+            <button class="filter" data-status="rejected">Rejected</button>
+            <button class="filter" data-status="all">All</button>
+          </div>
+        </div>
+        <div id="study-comment-list" class="entry-list"><p>Loading…</p></div>
+      </section>
+
+      <section id="study-kudos" class="study-section" hidden>
+        <div class="section-heading"><div><p class="eyebrow">APPRECIATION</p><h2>Kudos ledger</h2></div></div>
+        <div id="study-kudos-list" class="entry-list"><p>Loading…</p></div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="reply-dialog" class="study-dialog">
+    <form method="dialog" class="dialog-close"><button aria-label="Close">×</button></form>
+    <p class="eyebrow">AUTHOR'S NOTE</p>
+    <h2 id="reply-title">Reply to comment</h2>
+    <blockquote id="reply-context"></blockquote>
+    <label for="reply-body">Your reply</label>
+    <textarea id="reply-body" rows="7" maxlength="5000"></textarea>
+    <div class="dialog-actions">
+      <button id="reply-save" class="primary">Publish reply</button>
+      <button id="reply-cancel" class="secondary">Cancel</button>
+    </div>
+    <p id="reply-message" role="status"></p>
+  </dialog>
+</body>
+</html>
