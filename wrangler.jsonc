@@ -1,8 +1,28 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "mooncoin",
+  "main": "./src/worker/index.mjs",
   "compatibility_date": "2026-10-30",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*",
+      "/admin*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mooncoin-interactions",
+      "database_id": "dd0983c3-64a5-48df-b175-f2e48da07dd1",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "TEAM_DOMAIN": "shrill-limit-e824.cloudflareaccess.com",
+    "POLICY_AUD": "e9446e0ec7973abc460e3a143a943f7f5d7acf0175a7c1936e240322c447ea87",
+    "ADMIN_EMAIL": "Lossegil@gmail.com",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAFtjQyw-bfnU-92K"
   }
 }
